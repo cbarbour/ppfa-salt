@@ -1,0 +1,10 @@
+# This file is maintained by salt. Any manual edits will be lost.
+# 
+# Edit this file to override any configuration options specified in
+# /usr/lib/docker-storage-setup/docker-storage-setup.
+#
+# For more details refer to "man docker-storage-setup"
+VG=docker
+DEVS="thinpool"
+SETUP_LVM_THIN_POOL=yes
+DATA_SIZE=70%FREE
