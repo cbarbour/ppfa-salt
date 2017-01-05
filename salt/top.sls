@@ -11,9 +11,12 @@ base:
     - rsyslog
   'docker*':
     - docker
-  'docker*us-west-2*':
+  'rancherlb*':
     - docker
-    - rancher
+    - rancher.lb
+  'ranchergp*':
+    - docker
+    - rancher.gp
   'proxy*':
     - nginx
     - haproxy
