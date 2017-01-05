@@ -11,10 +11,10 @@ base:
     - rsyslog
   'docker*':
     - docker
-  'rancherlb*':
+  'dockerlb*':
     - docker
     - rancher.lb
-  'ranchergp*':
+  'dockergp*':
     - docker
     - rancher.gp
   'proxy*':
